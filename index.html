@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>소라빵 점프! 무한 낙하</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="score-board">Score: <span id="score">0</span></div>
+        <canvas id="gameCanvas"></canvas>
+        <div id="msg">소라빵을 딛고 끝까지 내려가세요!</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
